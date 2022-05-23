@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class MainControllerPrAffichage {
 
 	
-	@GetMapping("hello")
+	@GetMapping("/hello")
 	public String hello()
 	{
 		return "hello";
